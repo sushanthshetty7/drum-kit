@@ -25,7 +25,7 @@ for (var i=0; i < numberOfButtons; i++){
   function makesound(key){
     switch (key) {
 
-      case "W":
+      case "w":
 
         var tom1 = new Audio("sounds/tom-1.mp3");
 
@@ -35,7 +35,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "A":
+      case "a":
 
         var tom2 = new Audio("sounds/tom-2.mp3");
 
@@ -45,7 +45,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "S":
+      case "s":
 
         var tom3 = new Audio("sounds/tom-3.mp3");
 
@@ -55,7 +55,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "D":
+      case "d":
 
         var tom4 = new Audio("sounds/tom-4.mp3");
 
@@ -65,7 +65,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "J":
+      case "j":
 
         var snare = new Audio("sounds/snare.mp3");
 
@@ -75,7 +75,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "K":
+      case "k":
 
         var crash = new Audio("sounds/crash.mp3");
 
@@ -85,7 +85,7 @@ for (var i=0; i < numberOfButtons; i++){
 
 
 
-      case "L":
+      case "l":
 
         var kick = new Audio("sounds/kick-bass.mp3");
 
